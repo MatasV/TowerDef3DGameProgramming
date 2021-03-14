@@ -31,7 +31,6 @@ public class StatusEffect : MonoBehaviour
                 Debug.Log("found duplicate effect");
                 return true;
             }
-            
         }
 
         return false;

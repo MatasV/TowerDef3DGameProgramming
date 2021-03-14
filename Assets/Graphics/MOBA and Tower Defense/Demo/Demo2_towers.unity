@@ -10599,7 +10599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panSpeed: 20
-  rotSpeed: 10
+  rotSpeed: 0
   zoomSpeed: 0
   borderWidth: 10
   edgeScrolling: 0

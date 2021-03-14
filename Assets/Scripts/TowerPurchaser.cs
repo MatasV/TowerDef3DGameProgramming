@@ -53,8 +53,15 @@ public class TowerPurchaser : MonoBehaviour
 
     public void Purchase()
     {
-        var placementControllerClone = (TowerPlacementController)Instantiate(placementController).GetComponent(typeof(TowerPlacementController));
-        placementControllerClone.Init(towerData);
+        if (playerMoney.Value >= towerData.purchaseCost)
+        {
+            var placementControllerClone =
+                (TowerPlacementController) Instantiate(placementController)
+                    .GetComponent(typeof(TowerPlacementController));
+            placementControllerClone.Init(towerData);
+
+            playerMoney.Value -= towerData.purchaseCost;
+        }
     }
 
     private void OnDestroy()

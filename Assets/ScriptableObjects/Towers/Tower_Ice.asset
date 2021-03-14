@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773f13e38a6142ffb60918eee59eedcb, type: 3}
+  m_Name: Tower_Ice
+  m_EditorClassIdentifier: 
+  TowerGOs: []
+  purchaseCost: 300
+  upgradeCostIncrement: 1
+  fireRateIncrement: 0.6
+  damageIncrement: 0.5
+  towerName: Ice Tower
+  initialFireRate: 0.4
+  initialDamage: 5
+  initialRange: 8
+  rangeIncrement: 0.5

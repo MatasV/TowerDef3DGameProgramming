@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773f13e38a6142ffb60918eee59eedcb, type: 3}
+  m_Name: Tower_Crossbow
+  m_EditorClassIdentifier: 
+  TowerGOs:
+  - {fileID: 8461935487321446783, guid: b47191be6d2bfdb48986424c3b6a8519, type: 3}
+  - {fileID: 3694474111968803973, guid: c19485eb10816d74f8b78d97dfb53e31, type: 3}
+  - {fileID: 4361217481522664617, guid: d59d4fd20f876e5498e6b181c63b8fd0, type: 3}
+  purchaseCost: 100
+  upgradeCostIncrement: 3
+  fireRateIncrement: 0.5
+  damageIncrement: 0.6
+  towerName: Crossbow Tower
+  initialFireRate: 1
+  initialDamage: 10
+  initialRange: 7
+  rangeIncrement: 0.4
